@@ -12,7 +12,7 @@ class Produto:
    def empimeProdoto(self):
       print(f'Nome do Produto: {self.nome}')
       print(f'Preço: {self.preco}')
-      print(f'Desconto: {self.descontoTotal}')
+      print(f'Desconto: {self.descontoTotal}\n')
       
    
 
