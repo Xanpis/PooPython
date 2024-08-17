@@ -25,3 +25,7 @@ arroz.empimeProdoto()
 feijao = Produto('Feijao',8.00)
 feijao.desconto(10)
 feijao.empimeProdoto()
+
+lagosta = Produto('lagosta', 250)
+lagosta.desconto(15)
+lagosta.empimeProdoto()
