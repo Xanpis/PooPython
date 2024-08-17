@@ -4,6 +4,7 @@ class Produto:
       self.preco = preco
    
    def desconto(self,porcent ):
+      self.dec = porcent
       self.descontoTotal = self.preco - (self.preco * porcent / 100)
 
    def __str__(self):
@@ -12,7 +13,8 @@ class Produto:
    def empimeProdoto(self):
       print(f'Nome do Produto: {self.nome}')
       print(f'Preço: {self.preco}')
-      print(f'Desconto: {self.descontoTotal}\n')
+      print(f'Desconto: {self.dec}%')
+      print(f'Total: {self.descontoTotal}\n')
       
    
 
