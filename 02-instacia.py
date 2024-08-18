@@ -7,6 +7,7 @@ class Movie:
    includedPlan = False
    note = 0
    durationMinutes = 0
+   
    # sobre escrevendo o a referencia de uma classe 
    def __str__(self):
       return f"filme: {self.name}"
