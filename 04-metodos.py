@@ -6,7 +6,7 @@ class Movie:
       self.includedPlan = includedPlan
       self.note = note
       self.durationMinutes = durationMinutes
-   # sobre escrevendo o a referencia de uma classe 
+
    def __str__(self):
       return f"filme: {self.name}"
 

@@ -1,6 +1,5 @@
 
 class Movie:
-
    def __init__(self, name, yearLaunch, includedPlan = False, note = 0 , durationMinutes = 150):
       self.name = name
       self.yearLaunch = yearLaunch
