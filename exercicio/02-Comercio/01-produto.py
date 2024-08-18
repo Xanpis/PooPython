@@ -15,8 +15,7 @@ class Produto:
       print(f'Preço: {self.preco}')
       print(f'Desconto: {self.dec}%')
       print(f'Total: {self.descontoTotal}\n')
-      
-   
+         
 
 arroz = Produto('Arroz',5)
 arroz.desconto(50)
