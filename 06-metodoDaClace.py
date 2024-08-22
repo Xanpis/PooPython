@@ -13,9 +13,9 @@ class Console:
    def from_text(cls,string):
       import re
       item = re.findall("é \w*",string)
-      name = item[0][2:]
-      price = item[1][2:]
-      return cls( name, int(price))
+      na = item[0][2:]
+      pri = item[1][2:]
+      return cls( na, int(pri))
 
 wiiu = Console.from_text('Meu video game é Wiiu e o preço é 1000 reais')
 print(wiiu.__dict__)
