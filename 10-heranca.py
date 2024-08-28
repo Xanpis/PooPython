@@ -7,8 +7,8 @@ class Animal:
     def eat(self):
         print("Animal comendo")
 
-# clases espesializadas 
-class Hose(Animal):
+# classes especializadas 
+class Horse(Animal):
     race = ''
 
     def scape(self):
@@ -20,3 +20,9 @@ class Leao(Animal):
 
     def hunt(self):
         print("Leão caçando")
+
+h = Horse()
+h.name = 'Carpido'
+h.color = 'Black'
+h.scape()
+h.eat()
