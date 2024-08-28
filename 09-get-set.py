@@ -1,4 +1,6 @@
 class Employer:
+   __salary2 = 400
+
    def __init__(self, nome, salary):
       self.nome = nome
       # encapsulamento privado
@@ -15,6 +17,7 @@ class Employer:
 
    def show (self):
       print(f"Nome: {self.nome}")
+      print(f"Nome: {self.__salary2}")
       print(f"Nome: {self.__salary} \n")
 
 
