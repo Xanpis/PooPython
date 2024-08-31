@@ -35,6 +35,8 @@ zoo = Zoo()
 
 peixe = Fish("Nemo","peixe")
 print(vars(peixe))
+peixe.color  = 'verde'
+print(peixe.color)
 
 papagaio = Parrot("Louro","aves")
 print(vars(papagaio))
