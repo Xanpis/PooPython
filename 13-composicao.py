@@ -30,15 +30,14 @@ class Zoo:
         return f"No nosso zoológico temos: {result} quantidade de: {category} "
   
 
-
 zoo = Zoo()
 
 peixe = Fish("Nemo","peixe")
-print(vars(peixe))
 peixe.color  = 'verde'
-print(peixe.color)
+print(vars(peixe))
 
 papagaio = Parrot("Louro","aves")
+papagaio.color = 'Listrado'
 print(vars(papagaio))
 
 zoo.add_animal(peixe)
