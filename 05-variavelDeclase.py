@@ -1,6 +1,6 @@
 class Movie:
    # variável de classe 
-   platform = 'Onebit code '
+   platform = 'Obit code '
 
    def __init__(self, name, yearLaunch, includedPlan = False, durationMinutes = 'Padrão'):
       self.name = name
@@ -30,7 +30,7 @@ class Movie:
       self.totalValuation += nota
       self.evaluates += 1 
 
-   def averge(self):
+   def avenge(self):
       print(f'Media do film : {self.name}: {self.totalValuation/self.evaluates:.2f} \n')
 
 
@@ -39,10 +39,10 @@ mario.evaluate(9.5)
 mario.evaluate(10)
 mario.evaluate(8)
 mario.technical_sheet()
-mario.averge()
+mario.avenge()
 
 avatar = Movie('Avatar', 2024, False, 300)
 
 # Editando a plataforma do filme da variável da classe 
-Movie.platform = 'Onebit code pro'
+Movie.platform = 'Obit code pro'
 avatar.technical_sheet()

@@ -13,10 +13,10 @@ class Phone:
         
         
 class SmartPhone(Phone):
-    def __init__(self, brand, model_name, price, ram, internal_memory, back_camera):
+    def __init__(self, br, mod, pri, ram, internal_memory, back_camera):
         # Quando eu passo o super eu estou reaproveitando os atributos do Metodo pai 
         # Assim eu não preciso escrever todos os self novamente
-        super().__init__(brand, model_name, price)
+        super().__init__(br, mod, pri)
         
         self.ram = ram
         self.internal_memory = internal_memory

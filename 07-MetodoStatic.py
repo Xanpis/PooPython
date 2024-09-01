@@ -1,7 +1,7 @@
 """
-1- O método estático não utiliza o parâmetro de referente a classe  
+1- O método estático não utiliza o parâmetro referente a classe  
 2- Você pose acessar mas não pode modificar o estado de uma classe
-3- Usamos o decorator @staticmethod para criar o método da estático 
+3- Usamos o decorator @staticmethod para criar o método  estático 
 
 """
 
@@ -11,10 +11,10 @@ class Curse:
       self.trail = trail
 
    @staticmethod
-   def curso_trail(trail):
-      if trail == 'Python Fundamentos':
+   def curso_trail(tra):
+      if tra == 'Python Fundamentos':
          curse = ['Dominando python','Modulo de pip']
-      elif trail == 'Automação python':
+      elif tra == 'Automação python':
          curse = ['Automação de tarefas', 'Web scraping',]
       else:
          curse =['A definir'] 

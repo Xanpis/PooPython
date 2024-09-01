@@ -21,8 +21,12 @@ class Leao(Animal):
     def hunt(self):
         print("Leão caçando")
 
+
 h = Horse()
 h.name = 'Carpido'
+h.size = 'small'
 h.color = 'Black'
+h.race = 'Equina'
+print(vars(h))
 h.scape()
 h.eat()
