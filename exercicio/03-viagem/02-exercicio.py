@@ -4,17 +4,17 @@ destino1= Trip("fortaleza")
 destino2= Trip("Gramados")
 destino3= Trip("São paulo")
 
-print("Olá viajante Temos algumas ofertas para você")
-traveler = input("Digite seu nome viajante \n")
-print(f"Olá {traveler} Temos 3 destino que combina com você "
+print("\nOlá viajante Temos algumas ofertas para você")
+traveler = input("\nDigite seu nome viajante : ")
+print(f"Olá {traveler.title()} Temos 3 destino que combina com você "
       '''
+      
       [0] Fortaleza
       [1] Gramados
-      [2] São paulo
-      
+      [2] São paulo 
       '''
       )  
-chose = int(input(" Selecione o destino: \n"))
+chose = int(input(" Selecione o destino: "))
 lista_trip = [destino1,destino2,destino3]
 
 for option in lista_trip:
@@ -22,6 +22,6 @@ for option in lista_trip:
         print('falha: Opção invalida ')
         break
     else:
-        print(f"{traveler} Sua viagem para {lista_trip[chose].destiny} foi Marcada obrigado")
+        print(f"{traveler.title()} Sua viagem para {lista_trip[chose].destiny} foi Marcada obrigado")
         break   
     
