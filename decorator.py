@@ -5,7 +5,6 @@ def antes_depois(fun):
         fun()
         print("Depois de executar a funcao")
     return wrapper
-    
 
 def letra_maiuscula(funcao):
     def wrapper():

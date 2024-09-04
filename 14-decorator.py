@@ -9,7 +9,8 @@ def my_function():
 my_function()
 
 @letra_maiuscula
-def transformando_em_maiuscula(dd):
-    return dd
+def transformando_em_maiuscula():
+    return "Transformando letras em maiusculas"  
 
-transformando_em_maiuscula('nomes')
+var = transformando_em_maiuscula()
+print(var)
